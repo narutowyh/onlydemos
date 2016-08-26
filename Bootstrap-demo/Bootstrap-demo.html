@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bootstrap-demo</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="http://apps.bdimg.com/libs/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+	<link href="demo.css" rel="stylesheet">
+	<script src="http://apps.bdimg.com/libs/jquery/2.0.0/jquery.min.js"></script>
+	<script src="http://apps.bdimg.com/libs/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+	<script src="demo.js"></script>
+</head>
+<body>
+<div class="container">
+	<div class="page-header">
+		<h1>主题</h1>
+		<p>
+			<a href="http://getbootstrap.com/examples/theme/">http://getbootstrap.com/examples/theme/</a>
+		</p>
+	</div>
+</div>
+	<div class="container">
+		<div class="page-header">
+			<h1 class="title">grid</h1>
+		</div>
+		<div class="row">
+			<div class="col-md-4">col-md-4</div>
+			<div class="col-md-4">col-md-4</div>
+			<div class="col-md-4">col-md-4</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="page-header">
+			<h1 class="title">headers <small>I am	sub header</small></h1>
+		</div>
+		<p class="lead">I am .lead! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore pariatur sapiente, ipsum! Ipsa deserunt obcaecati incidunt, perspiciatis id, porro doloribus ab, totam iure dolores vero tempore recusandae. Similique, nulla, dolor.</p>
+		<p class="text-muted">text-muted</p>
+		<p class="text-primary">text-primary</p>
+		<p class="text-success">text-success</p>
+		<p class="text-info">text-info</p>
+		<p class="text-warning">text-warning</p>
+		<p class="text-danger">text-danger</p>
+	</div>
+
+	<div class="container">
+		<h1 class="title">form</h1>
+		<form action="" role="form" class="form-horizontal">
+			<div class="form-group">
+				<label for="focusedInput" class="col-sm-2 control-label">聚焦</label>
+				<div class="col-sm-4">
+					<input type="text" class="form-control input-lg" id="focusedInput">
+				</div>
+			</div>
+			<div class="form-group has-success">
+				<label for="success" class="col-sm-2 control-label">成功</label>
+				<div class="col-md-4">
+					<input type="text" class="form-control">
+				</div>
+			</div>
+			<div class="form-group has-warning">
+				<label for="" class="col-md-2 control-label">警告</label>
+				<div class="col-md-4">
+					<input type="text" class="form-control input-sm">
+				</div>
+			</div>
+			<div class="form-group has-error">
+				<label for="" class="col-md-2 control-label">错误</label>
+				<div class="col-md-4">
+					<input type="text" class="form-control">
+					<span class="help-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias illo dolores animi suscipit qui atque aspernatur a debitis nostrum voluptatum necessitatibus, vel ipsam impedit quis? Mollitia dolorem ex, adipisci pariatur.</span>
+				</div>
+			</div>
+		</form>
+		<div class="btn btn-default">btn-default</div>
+		<div class="btn btn-primary">btn-primary</div>
+		<span class="btn btn-success">btn-success</span>
+		<span class="btn btn-info">btn-info</span>
+		<span class="btn btn-warning">btn-warning</span>
+		<span class="btn btn-danger">btn-danger</span>
+		<span class="btn btn-link">btn-link</span>
+		<span class="btn btn-lg btn-primary">btn-lg</span>
+		<span class="btn btn-sm btn-primary">btn-sm</span>
+		<span class="btn btn-xs btn-primary">btn-xs</span>
+		<span class="btn btn-block btn-primary">btn-block</span>
+		<span class="btn btn-lg btn-primary active">btn-lg active</span>
+		<span class="btn btn-lg btn-primary disabled">btn-lg disabled</span>
+	</div>
+
+	<div class="container">
+		<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta assumenda blanditiis esse distinctio ea, veniam temporibus at sequi similique quis cum a culpa voluptatum corporis saepe commodi placeat facilis voluptatem.</p>
+		<p class="text-primary">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam sunt quas aut magni architecto quia earum, id illum reprehenderit in? Minus fugiat veritatis excepturi optio saepe, voluptatum id dolor ducimus.
+		</p>
+		<p class="text-success">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore omnis aliquam officia eos atque, at excepturi iste laudantium non, neque unde ullam a corporis saepe. Animi, corporis. Reiciendis earum, cumque.
+		</p>
+		<p class="bg-primary text-primary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis sunt ipsam tempora dicta optio, ex deserunt adipisci accusantium nisi dolores, vitae! Amet libero ipsam mollitia repudiandae, culpa labore eligendi, quibusdam!</p>
+	</div>
+
+	<div class="container">
+		<h1 class="title">btn-group</h1>
+		<div class="btn-group-vertical">
+			<span class="btn btn-primary">1</span>
+			<span class="btn btn-primary">2</span>
+			<span class="btn btn-primary">3</span>
+			<span class="btn btn-primary">4</span>
+		</div>
+	</div>
+
+	<div class="container">
+		<h1 class="title">按钮下拉菜单</h1>
+		<div class="btn-group">
+			<button class="btn btn-default dropdown-toggle">
+				下拉
+			</button>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="input-group">
+					<span class="input-group-addon">$</span>
+					<input type="text" class="form-control">
+					<span class="input-group-addon">.00</span>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="input-group input-group-lg">
+					<span class="input-group-addon">$</span>
+					<input type="text" class="form-control">
+					<span class="input-group-addon">.00</span>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="input-group input-group-lg">
+					<span class="input-group-addon">
+						<input type="checkbox">
+					</span>
+					<input type="text" class="form-control">
+					<span class="input-group-addon">
+						<input type="radio">
+					</span>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="input-group">
+					<input type="text" class="form-control">
+					<span class="input-group-addon">
+						<span class="btn btn-primary">Go!</span>
+					</span>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="page-header">
+			<h1 class="title">navigator item(.nav.nav-pills[.nav-tabs])</h1>
+		</div>
+		<ul class="nav nav-tabs">
+			<li class="active"><a href="">link1</a></li>
+			<li><a href="">link2</a></li>
+			<li><a href="">link3</a></li>
+			<li><a href="">link4</a></li>
+		</ul>
+		<ul class="nav nav-pills">
+			<li class="active"><a href="">link1</a></li>
+			<li><a href="">link2</a></li>
+			<li><a href="">link3</a></li>
+			<li><a href="">link4</a></li>
+		</ul>
+		<ul class="nav nav-pills nav-justified">
+			<li class="active"><a href="">link1</a></li>
+			<li><a href="">link2</a></li>
+			<li class="disabled"><a href="">link3</a></li>
+			<li><a href="">link4</a></li>
+		</ul>
+		<div class="row">
+			<div class="col-lg-4">
+				<h2>带有下拉菜单</h2>
+				<ul class="nav nav-tabs">
+					<li class="active"><a href="">item1</a></li>
+					<li><a href="">item2</a></li>
+					<li><a href="">item3</a></li>
+					<li><a href="">item4</a></li>
+					<li><a href="">item5</a></li>
+					<li class="dropdown">
+						<a href="" class="dropdown-toggle" data-toggle="dropdown">
+							Java <span class="caret"></span>
+						</a>
+						<ul class="dropdown-menu">
+							<li><a href="">item1</a></li>
+							<li><a href="">item2</a></li>
+							<li><a href="">item3</a></li>
+							<li><a href="">item4</a></li>
+							<li class="divider"></li>
+							<li><a href="">over</a></li>
+						</ul>
+					</li>
+					<li><a href="">item7</a></li>
+					<li><a href="">item8</a></li>
+				</ul>
+			</div>
+			<div class="col-lg-4">
+				<h2>胶囊效果的下拉</h2>
+				<ul class="nav nav-pills">
+					<li class="active"><a href="">item1</a></li>
+					<li><a href="">item2</a></li>
+					<li><a href="">item3</a></li>
+					<li><a href="">item4</a></li>
+					<li><a href="">item5</a></li>
+					<li class="dropdown">
+						<a href="" class="dropdown-toggle" data-toggle="dropdown">
+							Java <span class="caret"></span>
+						</a>
+						<ul class="dropdown-menu">
+							<li><a href="">item1</a></li>
+							<li><a href="">item2</a></li>
+							<li><a href="">item3</a></li>
+							<li><a href="">item4</a></li>
+							<li class="divider"></li>
+							<li><a href="">over</a></li>
+						</ul>
+					</li>
+					<li><a href="">item7</a></li>
+					<li><a href="">item8</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="page-header">
+			<h1 class="title">navigator(.navbar.navbar-default)</h1>
+		</div>
+		<nav class="navbar navbar-default" role="navigation">
+			<div class="navbar-header">
+				<a href="" class="navbar-brand">W3Cschool</a>
+			</div>
+			<div>
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="">item1</a></li>
+					<li><a href="">item2</a></li>
+					<li><a href="">item3</a></li>
+					<li><a href="">item4</a></li>
+					<li><a href="">item5</a></li>
+					<li class="dropdown">
+						<a href="" class="dropdown-toggle" data-toggle="dropdown">
+							Java <span class="caret"></span>
+						</a>
+						<ul class="dropdown-menu">
+							<li><a href="">item1</a></li>
+							<li><a href="">item2</a></li>
+							<li><a href="">item3</a></li>
+							<li><a href="">item4</a></li>
+							<li class="divider"></li>
+							<li><a href="">over</a></li>
+						</ul>
+					</li>
+					<li><a href="">item7</a></li>
+					<li><a href="">item8</a></li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+
+	<div class="container">
+		<h1 class="title">breadcrumb</h1>
+		<ol class="breadcrumb">
+			<li><a href="">home</a></li>
+			<li><a href="">2013</a></li>
+			<li><a href="">十一月</a></li>
+		</ol>
+	</div>
+
+	<div class="container">
+		<h1 class="title">pagination</h1>
+		<ul class="pagination">
+			<li class="disabled"><a href="">&laquo;</a></li>
+			<li class="active"><a href="">1</a></li>
+			<li><a href="">2</a></li>
+			<li><a href="">3</a></li>
+			<li><a href="">4</a></li>
+			<li><a href="">5</a></li>
+			<li><a href="">6</a></li>
+			<li><a href="">&raquo;</a></li>
+		</ul>
+		<ul class="pagination pagination-lg">
+			<li class="disabled"><a href="">&laquo;</a></li>
+			<li class="active"><a href="">1</a></li>
+			<li><a href="">2</a></li>
+			<li><a href="">3</a></li>
+			<li><a href="">4</a></li>
+			<li><a href="">5</a></li>
+			<li><a href="">6</a></li>
+			<li><a href="">&raquo;</a></li>
+		</ul>
+		<ul class="pagination pagination-sm">
+			<li class="disabled"><a href="">&laquo;</a></li>
+			<li class="active"><a href="">1</a></li>
+			<li><a href="">2</a></li>
+			<li><a href="">3</a></li>
+			<li><a href="">4</a></li>
+			<li><a href="">5</a></li>
+			<li><a href="">6</a></li>
+			<li><a href="">&raquo;</a></li>
+		</ul>
+		<div>
+			<ul class="pager">
+				<li><a href="">prev</a></li>
+				<li><a href="">next</a></li>
+			</ul>
+		</div>
+		<div>
+			<ul class="pager">
+				<li class="previous disabled"><a href="">&larr; older</a></li>
+				<li class="next"><a href="">&rarr; newer</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="container">
+		<h1 class="title">label</h1>
+		<h1>example heading <span class="label label-default">label-default</span></h1>
+		<h2>example heading <span class="label label-primary">label-primary</span></h2>
+		<h3>example heading <span class="label label-success">label-success</span></h3>
+		<h4>example heading <span class="label label-info">label-info</span></h4>
+		<h5>example heading <span class="label label-warning">label-warning</span></h5>
+		<h6>example heading <span class="label label-danger">label-danger</span></h6>
+	</div>
+
+	<div class="container">
+		<h1 class="title">badges</h1>
+		<div>
+			<a href="">mail <span class="badge">2333</span></a>
+		</div>
+	</div>
+
+	<div class="container">
+		<h1 class="title">缩略图</h1>
+		<div class="row">
+			<div class="col-sm-6 col-md-3">
+				<div class="thumbnail">
+					<img src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2269666314,2800650040&fm=116&gp=0.jpg" alt="">
+				</div>
+				<div class="caption">
+					<h3>缩略图标签</h3>
+					<p>some doc</p>
+					<p>
+						<span class="btn btn-default">btn</span>
+						<span class="btn btn-primary">primary btn</span>
+					</p>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-3">
+				<div class="thumbnail">
+					<img src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2269666314,2800650040&fm=116&gp=0.jpg" alt="">
+				</div>
+				<div class="caption">
+					<h3>缩略图标签</h3>
+					<p>some doc</p>
+					<p>
+						<span class="btn btn-default">btn</span>
+						<span class="btn btn-primary">primary btn</span>
+					</p>
+				</div>
+			</div><div class="col-sm-6 col-md-3">
+				<div class="thumbnail">
+					<img src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2269666314,2800650040&fm=116&gp=0.jpg" alt="">
+				</div>
+				<div class="caption">
+					<h3>缩略图标签</h3>
+					<p>some doc</p>
+					<p>
+						<span class="btn btn-default">btn</span>
+						<span class="btn btn-primary">primary btn</span>
+					</p>
+				</div>
+			</div><div class="col-sm-6 col-md-3">
+				<div class="thumbnail">
+					<img src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2269666314,2800650040&fm=116&gp=0.jpg" alt="">
+				</div>
+				<div class="caption">
+					<h3>缩略图标签</h3>
+					<p>some doc</p>
+					<p>
+						<span class="btn btn-default">btn</span>
+						<span class="btn btn-primary">primary btn</span>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<h1 class="title">alert</h1>
+		<div class="alert alert-success">alert-success</div>
+		<div class="alert alert-info">alert-info</div>
+		<div class="alert alert-warning">alert-warning</div>
+		<div class="alert alert-danger">alert-danger</div>
+		<div>
+			<div class="alert alert-success alert-dismissable">
+				<button class="close">&times;</button>
+				alert-success alert-dismissable
+			</div>
+		</div>
+		<div>
+			<div class="alert alert-warning">
+				<a href="" class="alert-link">alert-link</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<h1 class="title">progress</h1>
+		<div class="progress">
+			<div class="progress-bar" style="width: 40%"></div>
+		</div>
+		<div class="progress">
+			<div class="progress-bar progress-bar-success" style="width: 40%"></div>
+		</div>
+		<div class="progress">
+			<div class="progress-bar progress-bar-info" style="width: 40%"></div>
+		</div>
+		<div class="progress">
+			<div class="progress-bar progress-bar-warning" style="width: 40%"></div>
+		</div>
+		<div class="progress">
+			<div class="progress-bar progress-bar-danger" style="width: 40%"></div>
+		</div>
+		<div class="progress progress-striped">
+			<div class="progress-bar progress-bar-success" style="width: 40%"></div>
+		</div>
+		<div class="progress progress-striped">
+			<div class="progress-bar progress-bar-info" style="width: 40%"></div>
+		</div>
+		<div class="progress progress-striped">
+			<div class="progress-bar progress-bar-warning" style="width: 40%"></div>
+		</div>
+		<div class="progress progress-striped">
+			<div class="progress-bar progress-bar-danger" style="width: 40%"></div>
+		</div>
+		<div class="progress progress-striped active">
+			<div class="progress-bar progress-bar-success" style="width: 40%"></div>
+		</div>
+		<div class="progress progress-striped active">
+			<div class="progress-bar progress-bar-info" style="width: 40%"></div>
+		</div>
+		<div class="progress progress-striped active">
+			<div class="progress-bar progress-bar-warning" style="width: 40%"></div>
+		</div>
+		<div class="progress progress-striped active">
+			<div class="progress-bar progress-bar-danger" style="width: 40%"></div>
+		</div>
+		<div class="progress progress-striped active">
+			<div class="progress-bar progress-bar-success" style="width: 30%"></div>
+			<div class="progress-bar progress-bar-info" style="width: 30%"></div>
+			<div class="progress-bar progress-bar-warning" style="width: 20%"></div>
+			<div class="progress-bar progress-bar-danger" style="width: 10%"></div>
+		</div>
+	</div>
+
+	<div class="container">
+		<ul class="list-group">
+			<li class="list-group-item">item1
+				<span class="badge">new</span>
+			</li>
+			<li class="list-group-item">item2</li>
+			<li class="list-group-item active">item3</li>
+			<li class="list-group-item">item4</li>
+			<li class="list-group-item">item5</li>
+		</ul>
+	</div>
+
+	<div class="container">
+		<div class="panel panel-default">
+			<p class="panel-heading">
+				I am panel heading
+			</p>
+			<div class="panel-body">
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae illum, nam ipsum provident soluta modi beatae repudiandae possimus deleniti fugit quaerat quia alias consequatur, et suscipit eaque voluptatem culpa. Quos!
+				</p>
+			</div>
+			<ul class="list-group">
+				<li class="list-group-item"><a href="">item1</a></li>
+				<li class="list-group-item"><a href="">item2</a></li>
+				<li class="list-group-item"><a href="">item3</a></li>
+				<li class="list-group-item"><a href="">item4</a></li>
+				<li class="list-group-item"><a href="">item5</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="container">
+		<h1 class="title">wells</h1>
+		<div class="well">I am in a well!</div>
+		<div class="well well-lg">I am in a lg well!</div>
+		<div class="well well-sm">I am in a sm well!</div>
+	</div>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+<script>
+</script>
+</body>
+</html>
